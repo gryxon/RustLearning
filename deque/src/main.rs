@@ -20,7 +20,7 @@ fn main() {
 
     let mut i = 0;
     while !queue.is_empty() {
-        println!("#{}: {}", i, queue.pop_left().unwrap());
+        println!("#{}: {}", i, queue.pop_left());
         i += 1;
     }
 
